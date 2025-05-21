@@ -1,5 +1,4 @@
 import "./MostTrendingCard.css";
-import icon from "./../../assets/imgs/location-most-trending.svg";
 
 export interface CardItemProps {
   id?: number;
@@ -21,7 +20,10 @@ const MostTrendingCard = ({ img, price, title, location }: CardItemProps) => {
         <p className="price">{price}$</p>
         <h5 className="title">{title}</h5>
         <p className="location">
-          <img src={icon} alt="location-img" />
+          <img
+            src="/Task4-Adv-Flora/assets/imgs/location-most-trending.svg"
+            alt="location-img"
+          />
           {location}
         </p>
       </div>

@@ -16,10 +16,8 @@ export interface IFooterData {
   socialIcons: { icon: string; href: string }[];
 }
 
-import logo from "/Task4-Adv-Flora/assets/imgs/logo.svg";
-
 export const FooterData: IFooterData = {
-  logo,
+  logo: "/Task4-Adv-Flora/assets/imgs/logo.svg",
   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.",
   address: "2972 Westheimer Rd. Santa Ana, Illinois 85486",
   columns: [

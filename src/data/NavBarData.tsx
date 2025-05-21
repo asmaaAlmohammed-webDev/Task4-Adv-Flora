@@ -1,5 +1,3 @@
-import logo from "/Task4-Adv-Flora/assets/imgs/logo.svg";
-
 export interface NavLink {
   name: string;
   href: string;
@@ -11,7 +9,7 @@ export interface NavbarData {
 }
 
 export const NavBarData: NavbarData = {
-  logo,
+  logo: "/Task4-Adv-Flora/assets/imgs/logo.svg",
   links: [
     { name: "Home", href: "#" },
     { name: "About", href: "#About" },
