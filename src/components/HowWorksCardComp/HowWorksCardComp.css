@@ -3,6 +3,7 @@
   border-radius: 18px;
   padding: 40px 50px;
   background-color: var(--white);
+  transition: all 0.9s ease-in-out !important;
 
   img {
     width: 55px;
@@ -24,16 +25,15 @@
     }
   }
 }
-.how-works-card:hover {
-  box-shadow: var(--blue1) 3px 3px, var(--blue2) 6px 6px, var(--blue3) 12px 12px;
-  transition: all 0.3s ease-in-out;
-}
 .how-works-card:nth-child(2) {
   background-color: var(--blue2);
   .title,
   .desc {
     color: var(--white);
   }
+}
+.how-works-card:hover {
+  box-shadow: var(--blue1) 3px 3px, var(--blue2) 6px 6px, var(--blue3) 12px 12px;
 }
 /* ========= Media Queries ========= */
 

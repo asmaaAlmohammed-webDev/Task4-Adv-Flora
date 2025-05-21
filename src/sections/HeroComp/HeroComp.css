@@ -33,6 +33,11 @@
       max-width: 986px;
       padding: 0px 58px;
       margin-top: 50px;
+      transition: all 0.9s ease-in-out;
+    }
+    .infos:hover {
+      box-shadow: var(--blue1) 3px 3px, var(--blue2) 8px 8px,
+        var(--blue3) 12px 12px;
     }
     .infos div:first-child {
       margin-right: 0;

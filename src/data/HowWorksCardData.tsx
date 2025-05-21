@@ -1,7 +1,3 @@
-// import icon1 from "../assets/imgs/How-Works/icon1.svg";
-// import icon2 from "../assets/imgs/How-Works/icon2.svg";
-// import icon3 from "../assets/imgs/How-Works/icon3.svg";
-
 interface Card {
   id: number;
   icon: string;

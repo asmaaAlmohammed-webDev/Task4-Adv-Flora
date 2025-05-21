@@ -1,9 +1,3 @@
-// import img1 from "../assets/imgs/Most-Trending/trend1.png";
-// import img2 from "../assets/imgs/Most-Trending/trend2.png";
-// import img3 from "../assets/imgs/Most-Trending/trend3.png";
-// import img4 from "../assets/imgs/Most-Trending/trend4.png";
-// import img5 from "../assets/imgs/Most-Trending/trend5.png";
-// import img6 from "../assets/imgs/Most-Trending/trend6.png";
 export interface CardItem {
   id: number;
   img: string;

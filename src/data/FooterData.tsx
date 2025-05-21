@@ -1,6 +1,3 @@
-// import icon1 from "../assets/imgs/socail-icons/facebook-fill.svg";
-// import icon2 from "../assets/imgs/socail-icons/twitter-fill.svg";
-// import icon3 from "../assets/imgs/socail-icons/linkedin-fill.svg";
 export interface FooterLink {
   label: string;
   href: string;

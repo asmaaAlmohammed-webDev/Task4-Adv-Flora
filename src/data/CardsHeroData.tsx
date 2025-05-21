@@ -1,6 +1,3 @@
-// import icon1 from "../assets/imgs/location.svg";
-// import icon2 from "../assets/imgs/dollar-circle.svg";
-// import icon3 from "../assets/imgs/house.svg";
 interface CardData {
   icon: string;
   title: string;

@@ -10,6 +10,7 @@ import SecMostTrending from "./sections/SecMostTrending/SecMostTrending";
 import SecBestReal from "./sections/SecBestReal/SecBestReal";
 import FooterComp from "./sections/FooterComp/FooterComp";
 import { NavBarData } from "./data/NavBarData";
+import { HeroData } from "./data/HeroData";
 import { AdSecData } from "./data/AdSecData";
 import { FooterData } from "./data/FooterData";
 
@@ -45,11 +46,7 @@ function App() {
     <>
       <header>
         <NavBarComp logo={NavBarData.logo} links={NavBarData.links} />
-        <HeroComp
-          title=" Discover a place you will love to live"
-          desc="  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-          tempus felis vitae sit est quisque."
-        />
+        <HeroComp title={HeroData.title} desc={HeroData.desc} />
       </header>
       <main>
         <SecHowWorks />
