@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo.svg";
+import logo from "/Task4-Adv-Flora/assets/imgs/logo.svg";
 
 export interface NavLink {
   name: string;

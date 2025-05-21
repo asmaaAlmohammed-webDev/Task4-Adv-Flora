@@ -1,6 +1,6 @@
 .hero {
   height: calc(100vh - 88px);
-  background-image: url("./../../assets/imgs/hero-img.png");
+  background-image: url("/Task4-Adv-Flora/assets//imgs//hero-img.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;

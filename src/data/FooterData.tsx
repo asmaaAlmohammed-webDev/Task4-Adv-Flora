@@ -16,7 +16,7 @@ export interface IFooterData {
   socialIcons: { icon: string; href: string }[];
 }
 
-import logo from "../assets/imgs/logo.svg";
+import logo from "/Task4-Adv-Flora/assets/imgs/logo.svg";
 
 export const FooterData: IFooterData = {
   logo,
