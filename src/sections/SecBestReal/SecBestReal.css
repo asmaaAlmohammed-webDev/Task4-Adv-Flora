@@ -1,0 +1,58 @@
+.best-real-sec {
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .tabs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 41px;
+    gap: 50px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    .tabs::-webkit-scrollbar {
+      display: none;
+    }
+    .tab {
+      background: none;
+      border: none;
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 18px;
+      cursor: pointer;
+      color: var(--black2);
+      padding-bottom: 15px;
+      white-space: nowrap;
+    }
+    .active-tab {
+      color: var(--blue2);
+      border-bottom: 2px solid var(--blue2);
+    }
+  }
+}
+/* ========= Media Queries ========= */
+
+@media (max-width: 1919px) {
+  .best-real-sec {
+    .cards {
+      gap: 35px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .best-real-sec {
+    .cards {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .best-real-sec {
+    .cards {
+      gap: 20px;
+    }
+  }
+}

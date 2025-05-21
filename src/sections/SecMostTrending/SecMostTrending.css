@@ -1,0 +1,28 @@
+.most-trending-sec {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 24px;
+  }
+}
+/* ========= Media Queries ========= */
+
+@media (max-width: 1200px) {
+  .most-trending-sec {
+    .cards {
+      max-width: 750px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media (max-width: 768px) {
+  .most-trending-sec {
+    .cards {
+      max-width: 300px;
+      margin: 0 auto;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

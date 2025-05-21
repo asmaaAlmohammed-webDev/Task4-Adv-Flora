@@ -1,0 +1,76 @@
+/* Google Font: Inter */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--white-color);
+}
+header {
+  background-color: var(--blue1);
+}
+
+:root {
+  --white: #fff;
+  --black1: #000;
+  --black2: #222222;
+  --black3: #22222280;
+  --blue1: #eff8ff;
+  --blue2: #025595;
+  --blue3: #d7e6ea;
+}
+
+.bg-color {
+  background-color: var(--white);
+}
+
+.px {
+  padding-left: 168px;
+  padding-right: 168px;
+}
+
+.m-bottom {
+  margin-bottom: 200px;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--blue1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--blue2));
+  border-radius: 6px;
+}
+
+/* ========= Media Queries ========= */
+
+@media (max-width: 1919px) {
+  .px {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+  .m-bottom {
+    margin-bottom: 94px;
+  }
+}
+
+@media (max-width: 540px) {
+  .px {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .m-bottom {
+    margin-bottom: 64px;
+  }
+}
