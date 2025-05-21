@@ -45,7 +45,11 @@ function App() {
     <>
       <header>
         <NavBarComp logo={NavBarData.logo} links={NavBarData.links} />
-        <HeroComp />
+        <HeroComp
+          title=" Discover a place you will love to live"
+          desc="  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+          tempus felis vitae sit est quisque."
+        />
       </header>
       <main>
         <SecHowWorks />

@@ -10,9 +10,9 @@
   .trending-img {
     transition: all 0.7s ease-in-out;
   }
-  .trending-img:hover {
+  .most-trending-card:hover .trending-img {
     transform: scale(1.03) translateY(-4px);
-    box-shadow: 0 10px 20px rgb(172, 172, 245);
+    box-shadow: 0 10px 20px rgba(113, 113, 255, 0.521);
   }
   .content {
     padding: 0 15px;

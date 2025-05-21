@@ -1,6 +1,6 @@
-import icon1 from "../assets/imgs/location.svg";
-import icon2 from "../assets/imgs/dollar-circle.svg";
-import icon3 from "../assets/imgs/house.svg";
+// import icon1 from "../assets/imgs/location.svg";
+// import icon2 from "../assets/imgs/dollar-circle.svg";
+// import icon3 from "../assets/imgs/house.svg";
 interface CardData {
   icon: string;
   title: string;
@@ -9,17 +9,17 @@ interface CardData {
 
 export const CardsHeroData: CardData[] = [
   {
-    icon: icon1,
+    icon: "/Task4-Adv-Flora/assets/imgs/location.svg",
     title: " Location",
     description: " Ahmedabad, India",
   },
   {
-    icon: icon2,
+    icon: "/Task4-Adv-Flora/assets/imgs/dollar-circle.svg",
     title: "Price",
     description: " $1000 - $10,000",
   },
   {
-    icon: icon3,
+    icon: "/Task4-Adv-Flora/assets/imgs/house.svg",
     title: "Type of Property",
     description: " Apartment  ",
   },

@@ -1,6 +1,6 @@
-import icon1 from "../assets/imgs/socail-icons/facebook-fill.svg";
-import icon2 from "../assets/imgs/socail-icons/twitter-fill.svg";
-import icon3 from "../assets/imgs/socail-icons/linkedin-fill.svg";
+// import icon1 from "../assets/imgs/socail-icons/facebook-fill.svg";
+// import icon2 from "../assets/imgs/socail-icons/twitter-fill.svg";
+// import icon3 from "../assets/imgs/socail-icons/linkedin-fill.svg";
 export interface FooterLink {
   label: string;
   href: string;
@@ -46,8 +46,17 @@ export const FooterData: IFooterData = {
     },
   ],
   socialIcons: [
-    { icon: icon1, href: "#" },
-    { icon: icon2, href: "#" },
-    { icon: icon3, href: "#" },
+    {
+      icon: "/Task4-Adv-Flora/assets/imgs/socail-icons/facebook-fill.svg",
+      href: "#",
+    },
+    {
+      icon: "/Task4-Adv-Flora/assets/imgs/socail-icons/twitter-fill.svg",
+      href: "#",
+    },
+    {
+      icon: "/Task4-Adv-Flora/assets/imgs/socail-icons/linkedin-fill.svg",
+      href: "#",
+    },
   ],
 };

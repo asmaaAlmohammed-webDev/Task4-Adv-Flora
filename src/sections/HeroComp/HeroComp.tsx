@@ -1,17 +1,19 @@
 import CardHeroComp from "../../components/CardHeroComp/CardHeroComp";
 import { CardsHeroData } from "../../data/CardsHeroData";
 import "./HeroComp.css";
-
-const HeroComp = () => {
+interface HeroProps {
+  title: string;
+  desc: string;
+}
+const HeroComp = ({ title, desc }: HeroProps) => {
   return (
     <section className="hero px m-bottom">
       <div className="content-hero">
         <h1 className="title" data-aos="zoom-in" data-aos-duration="2000">
-          Discover a place you will love to live
+          {title}
         </h1>
         <p className="desc" data-aos="zoom-in" data-aos-duration="2000">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-          tempus felis vitae sit est quisque.
+          {desc}
         </p>
         <div className="infos" data-aos="zoom-in" data-aos-duration="2000">
           {CardsHeroData.map((item, index) => (

@@ -44,7 +44,7 @@
 
 @media (max-width: 1919px) {
   .hero {
-    /* height: calc(100vh - 75px); */
+    height: calc(100vh - 75px);
     .content-hero {
       .title {
         font-size: 60px;
@@ -94,6 +94,7 @@
 }
 @media (max-width: 540px) {
   .hero {
+    height: max-content;
     .content-hero {
       .title {
         width: 90%;
